@@ -11,3 +11,6 @@
 2. repeat - how many times to repeat the same process
 3. yoyo - like SHM
 4. gsap.timeline()
+
+
+### GSAP ScrollTrigger (last second)
