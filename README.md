@@ -14,3 +14,11 @@
 
 
 ### GSAP ScrollTrigger (last second)
+
+- scrollTrigger {
+    trigger: "<element>",
+    scoller: "body",
+    markers: true, #if you need !
+    scrub: 2 ;
+    pin: true
+}
