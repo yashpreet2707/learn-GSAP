@@ -19,7 +19,6 @@ string.addEventListener("mousemove", (dets) => {
 string.addEventListener("mouseleave", () => {
     gsap.to("svg path", {
         attr: { d: finalPath},
-        // duration: 0.8,
         ease: "elastic.out(1,0.2)"
     })
 })
