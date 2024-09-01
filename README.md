@@ -22,3 +22,6 @@
     scrub: 2 ;
     pin: true
 }
+
+### cursor animations (part 4)
+
