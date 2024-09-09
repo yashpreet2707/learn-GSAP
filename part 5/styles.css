@@ -1,0 +1,68 @@
+* {
+margin:0;
+padding: 0;
+box-sizing: border-box ;
+}
+
+html,
+body {
+width: 100% ;
+height: 100% ;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
+    overflow-x: hidden ;
+}
+ 
+#main {
+    height: 100%;
+    width: 100% ;
+    /* background-color: lightblue ; */
+    background-image: url("https://images.unsplash.com/photo-1590675207436-0bc5f54505f0?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover ;
+    background-position: center;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    padding: 30px 50px ; 
+}
+#nav h2 {
+    font-weight: 600 ;
+    font-size: 30px ;
+}
+#nav i {
+    font-size: 32px ;
+    font-weight: 800 ;
+    cursor: pointer ;
+}
+#full {
+    height: 100% ;
+    width: 30% ;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.175) ;
+    top: 0% ;
+    right: -30% ;
+    backdrop-filter: blur(10px) ;
+    padding: 200px 50px ;
+}
+
+#full h4 {
+    font-size: 32px ;
+    font-weight: 550 ;
+    margin-bottom: 20px ;
+}
+
+#full i {
+    position: absolute;
+    top: 30px ;
+    right : 50px ;
+    font-size: 32px ;
+    cursor: pointer ;
+    font-weight: 600;
+    background-color: white ;
+    padding: 5px ;
+    border-radius: 50% ;
+}
